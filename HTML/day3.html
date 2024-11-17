@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+    <style>
+
+        #field-set{
+            width: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <form action="" method="">
+
+        <label for="username" >USER NAME : </label>
+        <input type="text" id="username" required>
+
+        <br>
+        <br>
+
+        <label for="userpassword" >USER PASSWORD : </label>
+        <input type="password" id="userpassword" placeholder="Enter your passsword">
+
+        <br>
+        <br>
+
+        <label for="tel1">Your Number : </label>
+        <input type="tel" id="tel1" placeholder="12345-98765" pattern="[0-9]{10}"> 
+        <!-- pattern="[0-9]{5}-[0-9]{5}"" -->
+        <br>
+        <br>
+
+        <label for="color1">Pick your Shade : </label>
+        <input type="color" id="color1">
+
+
+        <br>
+        <br>
+
+        <label for="write">Creative Writing</label>
+        <select id="write">
+            <option>Beginner</option>
+            <option>Intermediate</option>
+            <option>Professional</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="date1">Your DOB: </label>
+        <input type="date" id="date1">
+
+        <br>
+        <br>
+
+        <label for="gender1">Your Gender : </label>
+
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female">
+
+        <label for="others">Others</label>
+        <input type="radio" name="gender" id="others">
+
+        <br>
+        <br>
+
+        <!-- <label for="skill">SKILLS : </label> -->
+
+        <fieldset id="field-set">
+        <legend><b><i>Skills</i></b></legend>
+
+        <label for="c">C</label>
+        <input type="checkbox" name="skills" id="c">
+
+        <label for="java">Java</label>
+        <input type="checkbox" name="skills" id="java">
+
+        <label for="css">Css</label>
+        <input type="checkbox" name="skills" id="css">
+        </fieldset>
+
+
+        <br>
+        
+
+
+        <label for="lan">English proficiency : </label>
+        <input type="range" min="0" max="100" value="80" >
+
+        <br>
+        <br>
+
+        <label for="exp">Experience: </label>
+        <input type="number" min="0" max="10">
+
+        <br>
+        <br>
+
+        <label for="file1">RESUME: </label>
+        <input type="file" id="file1">
+
+        <!-- <br>
+        <br> -->
+
+        <!-- This will act as a submit button in a image format -->
+        <!-- <input type="image" src="images\arrow.png" height="40" width="30"> -->
+
+        
+
+
+        <br>
+        <br>
+
+        <input type="submit" value="Click Me :)">
+
+    </form>
+
+</body>
+</html>
