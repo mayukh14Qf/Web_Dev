@@ -1,0 +1,35 @@
+
+/* Universal Selector */
+
+*{
+    font-size: 30px;
+}
+
+
+/* Element Selector */
+p{
+    color: chartreuse;
+}
+/* Id selector */
+
+#p5{
+    color: yellow;
+}
+
+/* Class selector */
+
+.pc{
+    color: red;
+}
+
+/* Group Selector */
+
+#p2,#p4{
+    color: blueviolet;
+}
+
+/* Descendent Selector */
+
+h3 p{
+    color: darkslategray;
+}
