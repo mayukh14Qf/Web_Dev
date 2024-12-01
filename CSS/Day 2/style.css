@@ -1,0 +1,43 @@
+#First-box{
+    background-color: cadetblue;
+    color: #9c1f0e;
+}
+#second-box{
+    background-color: rgb(115, 45, 89);
+}
+#third-box{
+    background-color: rgb(237, 121, 206);
+}
+
+#hex1{
+    background-color: #3eb8ab;
+}
+#hex2{
+    background-color: #6fb83e;
+}
+#hex3{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color: #b58326;
+}
+
+
+#alpha1{
+    background-color: rgba(255, 0, 0, 0.1);
+}
+#alpha2{
+    background-color: rgba(255, 0, 0, 0.3);
+}
+#alpha3{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+#alpha4{
+    background-color: rgba(255, 0, 0, 0.75);
+}
+#alpha5{
+    background-color: rgba(255, 0, 0, 1);
+}
+#button1{
+    background-color: darkgoldenrod;
+}
