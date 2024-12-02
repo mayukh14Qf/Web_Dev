@@ -1,0 +1,39 @@
+#box1{
+    height: 300px;
+    width: 400px;
+    /* text-align: center; */
+    background-color: aqua;
+
+    background-image: url(svu.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position:top right;
+    opacity:1;
+
+}
+#box2{
+    height: 300px;
+    width: 400px;
+    visibility: hidden;
+    background-color: rgb(152, 28, 117);
+
+}
+
+#box3{
+    height: 300px;
+    width: 400px;
+    
+    background-color: rgb(172, 196, 33);
+
+}
+
+#span1{
+    height: 100px;
+    width: 200px;
+    background-color: crimson;
+}
+#div1{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(100, 100, 201);
+}
