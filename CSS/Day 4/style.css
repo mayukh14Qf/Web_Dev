@@ -1,0 +1,90 @@
+#box1{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+
+    background-color: burlywood;
+    display: inline;
+}
+
+#box2{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+
+    background-color:darkolivegreen;
+    display: inline;
+}
+#box3{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+
+    background-color:rgb(212, 88, 123);
+    display: inline;
+}
+
+.spans{
+    height: 100px;
+    width: 100px;
+}
+
+#span1{
+    background-color: yellowgreen;
+    display: block;
+}
+#span2{
+    background-color: coral;
+    /* display: block; */
+    display: none;
+    visibility: hidden;
+}
+#span3{
+    background-color: violet;
+    display: block;
+}
+
+#ib1{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    display: inline-block;
+}
+#ib2{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    display: inline-block;
+}
+#ib3{
+    height: 100px;
+    width: 100px;
+    background-color:darkorange;
+    display: inline-block;
+}
+#heading1{
+    width: 400px;
+    background-color: rgb(145, 145, 238);
+    text-align:right;
+}
+#p1{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: brown;
+}
+#p2 a{
+    text-decoration-style: wavy;
+}
+#p3{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+#p4{
+    font-weight: 400;
+    font-style: italic;
+}
+#p5{
+    font-weight: 900;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    /* font-style: oblique; */
+}
