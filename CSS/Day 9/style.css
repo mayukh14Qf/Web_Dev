@@ -1,0 +1,41 @@
+#outer{
+    height: 500px;
+    width: 700px;
+    margin: 50px;
+    border: 6px solid black;
+    position: relative;
+
+    background-color: burlywood;
+    z-index: 2;
+}
+
+.box{
+    height: 75px;
+    width: 75px;
+    /* display: inline-block; */
+    margin: 10px;
+
+}
+
+#inner1{
+    background-color: red;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 3;
+}
+#inner2{
+    background-color: rgb(56, 36, 210);
+    position: relative;
+    z-index: 4;   
+}
+#inner3{
+    background-color: rgb(60, 214, 40);
+    position: relative;
+    left: 80px;
+    top: 40px;
+
+}
+#inner4{
+    background-color: rgb(113, 113, 113);
+}
